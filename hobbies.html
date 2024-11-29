@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UN VIAJE INFINITO</title>
+    <style>
+        /* Estilos globales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+        }
+        
+        /* Cabecera */
+        header {
+            background-image: url('9.gif'); /* Aquí puedes poner una imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 60px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+            margin-bottom: 20px;
+        }
+        header p {
+            font-size: 20px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+        }
+
+        /* Navegación */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 0 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+        /* Secciones */
+        section {
+            padding: 60px 20px;
+            margin: 20px 0;
+        }
+        section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .section-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .section-content .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-content .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin: 15px 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .card p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .section-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mi Historia</h1>
+        <p>Donde la creatividad y la elegancia se encuentran</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="inicio.html">Sobre mi</a>
+        <a href="hobbies.html">Mis hobbies</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+
+
+
+    <!-- Sección Servicios -->
+    <section id="servicios">
+        
+        <div class="section-content">
+            <div class="card">
+                <img src="images (1).jpg" alt="baske">
+                <h3>basketball</h3>
+                <p>El baloncesto, basquetbol o básquetbol (del inglés basketball; de basket, <br> 'canasta', y ball, 'pelota'), o simplemente básquet, es un deporte <br> de equipo que se puede desarrollar tanto en pista cubierta <br> como en descubierta, en el que dos conjuntos de cinco <br> jugadores cada uno, intentan anotar puntos, también llamados</p>
+                 <img src="3e.gif" alt="gif">
+
+            </div>
+            <div class="card">
+                <img src="1.jpg" alt="fo">
+                <h3>football</h3>
+                <p>El fútbol, futbo ​ o balompié​ (del inglés británico football) es <br> un deporte de equipo jugado entre dos conjuntos de once <br> jugadores cada uno, mientras los árbitros se ocupan de que <br> las normas se cumplan correctamente.</p>
+                <img src="2.gif" alt="fo">
+            </div>
+        </div>
+    </section>
